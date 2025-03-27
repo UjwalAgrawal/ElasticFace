@@ -1,0 +1,6 @@
+# requirements.txt
+boto3==1.34.67  # AWS SDK for S3, SQS, EC2 interactions
+torch==2.2.1     # PyTorch for model inference
+torchvision==0.17.1  # For image processing with PyTorch
+requests==2.31.0  # For HTTP requests (if needed for testing)
+flask==3.0.2      # Lightweight web framework for server.py (assumed)
